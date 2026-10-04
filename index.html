@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web phát Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .video-container {
+            max-width: 800px;
+            width: 100%;
+            background: #000;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Video của tôi</h1>
+
+    <div class="video-container">
+        <!-- Thay "ten-video.mp4" bằng đường dẫn tới video của bạn -->
+        <video controls poster="hinh-nen-thumb.jpg">
+            <source src="VU QUY BÉ NHIÊN-THANH QUỐC 22-9-2026.14920.6756.m4v.mp4" type="video/mp4">
+            <source src="VU QUY BÉ NHIÊN-THANH QUỐC 22-9-2026.14920.6756.m4v.webm" type="video/webm">
+            Trình duyệt của bạn không hỗ trợ thẻ video HTML5.
+        </video>
+    </div>
+
+</body>
+</html>
